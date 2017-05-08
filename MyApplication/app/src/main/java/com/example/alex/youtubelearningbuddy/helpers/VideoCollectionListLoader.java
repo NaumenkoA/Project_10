@@ -3,18 +3,12 @@ package com.example.alex.youtubelearningbuddy.helpers;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.example.alex.youtubelearningbuddy.model.collections.CollectionList;
 import com.example.alex.youtubelearningbuddy.model.collections.VideoCollection;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import io.reactivex.subjects.ReplaySubject;
 
 public class VideoCollectionListLoader {
 

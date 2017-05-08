@@ -11,9 +11,6 @@ import android.widget.TextView;
 import com.example.alex.youtubelearningbuddy.R;
 import com.example.alex.youtubelearningbuddy.adapters.VideoAdapter;
 import com.example.alex.youtubelearningbuddy.model.collections.VideoCollection;
-import com.example.alex.youtubelearningbuddy.model.videos.VideoItem;
-
-import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -20,8 +20,6 @@ import com.example.alex.youtubelearningbuddy.model.videos.Snippet;
 import com.example.alex.youtubelearningbuddy.model.videos.VideoItem;
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

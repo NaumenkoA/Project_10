@@ -60,7 +60,7 @@ public class CommentAdapter extends RecyclerView.Adapter <CommentAdapter.VideoHo
         this.notifyDataSetChanged();
     }
 
-    public class VideoHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    class VideoHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView authorTextView;
         TextView dateTextView;

@@ -4,7 +4,6 @@ package com.example.alex.youtubelearningbuddy.api;
 import com.example.alex.youtubelearningbuddy.model.comments.Comments;
 import com.example.alex.youtubelearningbuddy.model.videos.Item;
 
-import org.w3c.dom.Comment;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

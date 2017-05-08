@@ -6,7 +6,6 @@ import android.os.Parcelable;
 import com.example.alex.youtubelearningbuddy.model.videos.VideoItem;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class VideoCollection implements Parcelable {
     private String collectionName;
@@ -49,7 +48,7 @@ public class VideoCollection implements Parcelable {
         dest.writeTypedList(this.videos);
     }
 
-    protected VideoCollection(Parcel in) {
+    private VideoCollection(Parcel in) {
         this.collectionName = in.readString();
         this.videos = in.createTypedArrayList(VideoItem.CREATOR);
     }

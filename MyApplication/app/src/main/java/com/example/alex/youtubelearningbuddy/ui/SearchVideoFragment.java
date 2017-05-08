@@ -5,15 +5,12 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -68,7 +65,7 @@ public class SearchVideoFragment extends Fragment implements VideoAdapter.Recycl
         recyclerView.setAdapter(new VideoAdapter(getActivity(), this));
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         return view;
-    };
+    }
 
     @Override
     public void onStart() {
