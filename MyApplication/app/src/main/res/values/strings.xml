@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">YouTube Learning Buddy</string>
+    <string name="api_key">AIzaSyDMXsimjL74eD6oDp2MTRbZjpGyOuhIxe8</string>
+    <string name="search_hint">Search some YouTube video...</string>
+    <string name="add_video_to_list">ADD VIDEO TO LIST</string>
+    <string name="comments">Comments:</string>
+    <string name="my_lists">My lists</string>
+    <string name="search_videos">Search videos</string>
+    <string name="fab">Floating action button</string>
+    <string name="show_comments">Show comments to video</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_to_my_list">Add to my list</string>
+    <string name="play">play video</string>
+    <string name="video_image">video_image</string>
+    <string name="no_comments">There are no comments to this video</string>
+    <string name="no_topics_found_add_some_topics_first">no_topics</string>
+    <string name="select_topic">SELECT TOPIC TO ADD VIDEO TO: </string>
+    <string name="submit">SUBMIT</string>
+    <string name="there_are_no_videos_in_this_topic">There are no videos in this topic</string>
+    <string name="no_videos">no videos</string>
+    <string name="one_video">1 video</string>
+</resources>

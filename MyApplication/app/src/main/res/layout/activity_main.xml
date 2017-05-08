@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mainActivityLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <android.support.design.widget.TabItem
+            android:text="@+string/my_lists"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <android.support.design.widget.TabItem
+            android:text="@+string/search_videos"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+    </android.support.design.widget.TabLayout>
+
+
+    <FrameLayout
+        android:paddingTop="5dp"
+        android:layout_below="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:id="@+id/placeholder"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</RelativeLayout>

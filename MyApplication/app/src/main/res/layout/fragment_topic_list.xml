@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:paddingLeft="16dp"
+             android:paddingRight="16dp"
+             android:id="@+id/fragmentLayout"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.alex.youtubelearningbuddy.ui.TopicListFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/topicListView"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <ImageButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fab_circle"
+        android:src="@drawable/ic_add_white_48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/fab"
+        android:layout_marginBottom="40dp"
+        android:elevation="6dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+</RelativeLayout>
