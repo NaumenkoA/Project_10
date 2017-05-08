@@ -16,12 +16,14 @@ import com.example.alex.youtubelearningbuddy.R;
 import com.example.alex.youtubelearningbuddy.adapters.CollectionListAdapter;
 import com.example.alex.youtubelearningbuddy.helpers.VideoCollectionListLoader;
 import com.example.alex.youtubelearningbuddy.model.collections.CollectionList;
+import com.jakewharton.rxbinding2.view.RxView;
 
 import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import io.reactivex.functions.Function;
 
 public class SelectListActivity extends AppCompatActivity {
 
@@ -41,6 +43,7 @@ public class SelectListActivity extends AppCompatActivity {
         collectionList.setCollectionList(VideoCollectionListLoader.getSavedCollections(this));
         adapter = new CollectionListAdapter(this, collectionList);
         listView.setAdapter(adapter);
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
